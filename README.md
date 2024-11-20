@@ -5,8 +5,7 @@
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/adudu21isme) 
 
 # 📊 GitHub Stats:
-![Stats](https://github-readme-stats.vercel.app/api?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![Most Used Programming Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false)![Most Used Programming Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
 [![Profile Views](https://visitcount.itsvg.in/api?id=adudu21&label=Profile%20Views&color=12&icon=5&pretty=false)](https://visitcount.itsvg.in)
