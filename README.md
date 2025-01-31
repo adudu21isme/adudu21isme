@@ -12,5 +12,3 @@ I like programming and similar.<br>Managing some communities.
 
 #### 📊 GitHub Stats:
 ![Stats](https://github-readme-stats.vercel.app/api?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false)![Most Used Programming Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-**If you find any of my repositories helpful, you can Donate me Robux https://www.roblox.com/catalog?CreatorName=adudu21 (buy a T-Shirt or such, if you want to donate multiple times, go to the t-shirt you wish to purchase again, click the three dots next to the name of it and click "Delete from Inventory" then refresh page.**
