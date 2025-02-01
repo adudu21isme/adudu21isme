@@ -1,7 +1,6 @@
 # 💫 About Me:
 I like programming and similar.<br>Managing some communities.
 
-
 ### 🌐 Socials:
 **❗ If you want to contact adudu21 via Discord join [![Official Discord Server of adudu21](https://img.shields.io/badge/Discord-black.svg?logo=Discord&logoColor=white)](https://discord.gg/gUJvvFJktc) then DM adudu21 (Discord UserId: 710227418492960778)**
 
