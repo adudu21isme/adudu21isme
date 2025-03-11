@@ -8,4 +8,4 @@ I like programming and similar.<br>Managing some communities.
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/realAdudu21)
 
 #### 📊 GitHub Stats:
-![Stats](https://github-readme-stats.vercel.app/api?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false)![Most Used Programming Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=adudu21isme&theme=dark&hide_border=false&include_all_commits=false&count_private=false)!
