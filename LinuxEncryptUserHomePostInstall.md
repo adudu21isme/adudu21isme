@@ -20,7 +20,7 @@ Since i am using a distro based off arch linux, the commands will be for arch li
 
 Once your user is cloned and that all files are in the new folder, delete your old user folder, 
 
-once you deleted your old user folder, create it via mkdir, ensure it is empty and that it will always remain empty (if it is not empty then when using gocryptfps it may error).
+once you deleted your old user folder, create it via mkdir, ensure it is empty and that it will always remain empty (if it is not empty then when using gocryptfs it may error).
 
 7. Okay, we now have a backup of our original user folder, an empty user folder and a user folder that is your main user but ends with `_enc`, run `sudo gocryptfs -init /home/david_enc`, this will ask you to create a password for accessing this, **DO NOT FORGET IT! SAVE THE BACKUP MASTERKEYS/SUCH IF IT GIVES YOU!**.
 
