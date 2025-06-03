@@ -20,7 +20,7 @@ Since i am using a distro based off arch linux, the commands will be for arch li
 
 5. Once you found your main user, create a folder with the name of such user and add "_enc" to the end of it, this is to make it easy to understand  later, example: if user is named "david" then "david_enc".
 
-6. Clone your main user, `sudo cp -a /home/david/. /home/david_temp/`, 
+6. Clone your main user, `sudo rsync -aAXv /home/david/ /home/david_temp/`, 
 
 Once your user is cloned and that all files are in the new folder, delete your old user folder, 
 
@@ -30,7 +30,7 @@ once you deleted your old user folder, create it via mkdir, ensure it is empty a
 
 8. Great, now we have to add the data of our cloned user back to the main folder but not yet! we have to mount our user, `sudo gocryptfs -allow_other /home/david_enc /home/david`.
 
-9. If it successfully mounted (you put the right password and /home/david is currently empty) then you can now add the data from your cloned user to this one, run `sudo cp -a /home/david_temp/. /home/david/`.
+9. If it successfully mounted (you put the right password and /home/david is currently empty) then you can now add the data from your cloned user to this one, run `sudo rsync -aAXv /home/david_temp/ /home/david/`.
 
 10. To confirm if data has been successfully saved, unmount /home/david, run `sudo fusermount3 -u /home/david;`, if that fails then run `sudo umount /home/david` and if that still fails then run `sudo umount --lazy /home/david`.
 
