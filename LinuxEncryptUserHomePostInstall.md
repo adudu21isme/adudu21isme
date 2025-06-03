@@ -98,4 +98,4 @@ if you enter the incorrect password then you will have to go in TTY mode and man
 
 if systemd is not getting your inputs correctly then press backspace (ensure its empty) and "slowly type" but not too slow, if it still is incorrectly getting your inputs then try a bit slower.
 
-If you ensured your system fully works with gocryptfs then you can delete `/home/david_temp/`, otherwise, if the boot is having errors because if this, enter TTY mode and run `sudo systemctl disable decrypt-home`, you can add the files of `/home/david_temp/` to `/home/david/` and then delete `/home/david_enc/`, remove the systemd service file that we created, remove the files in `/usr/local/bin/` that we created and then reboot.
+If you ensured your system fully works with gocryptfs then you can delete `/home/david_temp/`, otherwise, if the boot is having errors because of this, enter TTY mode and run `sudo systemctl disable decrypt-home`, you can add the files of `/home/david_temp/` to `/home/david/` and then delete `/home/david_enc/`, remove the systemd service file that we created, remove the files in `/usr/local/bin/` that we created and then reboot.
