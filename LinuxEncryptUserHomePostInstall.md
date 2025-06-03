@@ -14,7 +14,7 @@ Since i am using a distro based off arch linux, the commands will be for arch li
 
 4. Using your file explorer or such, go to /home/ and find your main user (the user that you did not just create for this).
 
-5. Once you found your main user, create a folder with the name of such user and add "_enc" to the end of it, this is to make it easy to understand  later, example: if user is named "david" then "david_enc",
+5. Once you found your main user, create a folder with the name of such user and add "_enc" to the end of it, this is to make it easy to understand  later, example: if user is named "david" then "david_enc".
 
 6. Clone your main user, `sudo cp -a /home/david/.* /home/david_temp/`, 
 
