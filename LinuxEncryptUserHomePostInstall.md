@@ -3,6 +3,8 @@
 This was tested on Linux 6.14.8-1.1-cachyos (Based on Arch Linux) and works on my machine (DE: KDE Plasma 6.3.5, WM: KWin (Wayland))
 
 Since i am using a distro based off arch linux, the commands will be for arch linux.
+**david is a placeholder username, you will have to adjust it.**
+
 1. Open Terminal/Konsole or such.
 
 2. Install gocryptfs, if you have not then run `sudo pacman -S gocryptfs`.
@@ -12,7 +14,6 @@ Since i am using a distro based off arch linux, the commands will be for arch li
 4. Using your file explorer or such, go to /home/ and find your main user (the user that you did not just create for this).
 
 5. Once you found your main user, create a folder with the name of such user and add "_enc" to the end of it, this is to make it easy to understand  later, example: if user is named "david" then "david_enc",
-**david is a placeholder username, you will have to adjust it.**
 
 6. Clone your main user, `sudo cp -a /home/david/.* /home/david_temp/`, 
 
