@@ -22,7 +22,7 @@ Once your user is cloned and that all files are in the new folder, delete your o
 
 once you deleted your old user folder, create it via mkdir, ensure it is empty and that it will always remain empty (if it is not empty then when using gocryptfs it may error).
 
-7. Okay, we now have a backup of our original user folder, an empty user folder and a user folder that is your main user but ends with `_enc`, run `sudo gocryptfs -init /home/david_enc`, this will ask you to create a password for accessing this, **DO NOT FORGET IT! SAVE THE BACKUP MASTERKEYS/SUCH IF IT GIVES YOU!**.
+7. Okay, we now have a backup of our original user folder, an empty user folder and a user folder that is your main user but ends with `_enc`, run `sudo gocryptfs -init /home/david_enc`, this will ask you to create a password for accessing this that you will have to enter at boot, **DO NOT FORGET IT! SAVE THE BACKUP MASTERKEYS/SUCH IF IT GIVES YOU!**.
 
 8. Great, now we have to add the data of our cloned user back to the main folder but not yet! we have to mount our user, `sudo gocryptfs -allow_other /home/david_enc /home/david`.
 
