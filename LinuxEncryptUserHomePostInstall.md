@@ -5,7 +5,7 @@ This was tested on Linux 6.14.8-1.1-cachyos (Based on Arch Linux) and works on m
 Since i am using a distro based off arch linux, the commands will be for arch linux.
 1. Open Terminal/Konsole or such.
 
-2. Install gocryptfs if you have not then run `sudo pacman -S gocryptfs`.
+2. Install gocryptfs, if you have not then run `sudo pacman -S gocryptfs`.
 
 3. Once Installed, create another login-able user, you will need this other user (this is to make it more easy).
 
