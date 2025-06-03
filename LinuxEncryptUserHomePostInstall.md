@@ -28,20 +28,21 @@ once you deleted your old user folder, create it via mkdir, ensure it is empty a
 
 9. If it successfully mounted (you put the right password and /home/david is currently empty) then you can now add the data from your cloned user to this one, run `sudo cp -a /home/david_temp/.* /home/david/`.
 
-10. To confirm if data has been successfully added, unmount /home/david, run`sudo fusermount3 -u /home/main;`, if that fails then run `sudo umount /home/main` and if that still fails then run `umount --lazy /home/main`.
+10. To confirm if data has been successfully added, unmount /home/david, run `sudo fusermount3 -u /home/david;`, if that fails then run `sudo umount /home/david` and if that still fails then run `umount --lazy /home/david`.
 
 11. Run again, `sudo gocryptfs -allow_other /home/david_enc /home/david`, if the data you added is still there then thats good and we shall continue!
 
 12. Now, we have to make a systemd service, so we have to insert the password at boot to decrypt our encrypted /home/user, 
 
 in `/usr/local/bin/`, create a file named `gocryptfsbootunmount.sh` and another one named `gocryptfsbootpassword.sh`, for `gocryptfsbootunmount.sh`, heres the contents:
+**This uses placeholder values "david", change it to your user.**
 ```#!/bin/bash
 
-if ! fusermount3 -u /home/main; then
+if ! fusermount3 -u /home/david; then
   echo "fusermount3 failed. Attempting regular umount..."
-  if ! umount /home/main; then
+  if ! umount /home/david; then
     echo "Regular unmount failed. Force unmounting..."
-    umount --lazy /home/main
+    umount --lazy /home/david
   else
     echo "Successfully unmounted using umount."
   fi
