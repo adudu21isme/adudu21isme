@@ -53,6 +53,7 @@ fi
 ```
 
 For `gocryptfsbootpassword.sh`:
+
 **This uses placeholder values "david", change it to your user.**
 ```#!/bin/bash
 KEYFILE=$(mktemp /dev/shm/bootdecryptionkey.XXXXXX)
