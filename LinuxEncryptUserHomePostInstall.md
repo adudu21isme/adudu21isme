@@ -28,7 +28,7 @@ once you deleted your old user folder, create it via mkdir, ensure it is empty a
 
 9. If it successfully mounted (you put the right password and /home/david is currently empty) then you can now add the data from your cloned user to this one, run `sudo cp -a /home/david_temp/.* /home/david/`.
 
-10. To confirm if data has been successfully added, unmount /home/david, run `sudo fusermount3 -u /home/david;`, if that fails then run `sudo umount /home/david` and if that still fails then run `sudo umount --lazy /home/david`.
+10. To confirm if data has been successfully saved, unmount /home/david, run `sudo fusermount3 -u /home/david;`, if that fails then run `sudo umount /home/david` and if that still fails then run `sudo umount --lazy /home/david`.
 
 11. Run again, `sudo gocryptfs -allow_other /home/david_enc /home/david`, if the data you added is still there then thats good and we shall continue!
 
