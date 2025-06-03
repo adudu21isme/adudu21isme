@@ -35,6 +35,7 @@ once you deleted your old user folder, create it via mkdir, ensure it is empty a
 12. Now, we have to make a systemd service, so we have to insert the password at boot to decrypt /home/david_enc (mount /home/david), 
 
 in `/usr/local/bin/`, create a file named `gocryptfsbootunmount.sh` and another one named `gocryptfsbootpassword.sh`, for `gocryptfsbootunmount.sh`, heres the contents:
+
 **This uses placeholder values "david", change it to your user.**
 ```#!/bin/bash
 
