@@ -34,7 +34,7 @@ once you deleted your old user folder, create it via mkdir, ensure it is empty a
 
 10. To confirm if data has been successfully saved, unmount /home/david, run `sudo fusermount3 -u /home/david;`, if that fails then run `sudo umount /home/david` and if that still fails then run `sudo umount --lazy /home/david`.
 
-11. Run again, `sudo gocryptfs -allow_other /home/david_enc /home/david`, if the data you added is still there then thats good and we shall continue!
+11. Run again, `sudo gocryptfs -allow_other /home/david_enc /home/david`, if the data you added is still there then unmount again and we shall continue!
 
 12. Now, we have to make a systemd service, so we have to insert the password at boot to decrypt /home/david_enc (mount /home/david), 
 
