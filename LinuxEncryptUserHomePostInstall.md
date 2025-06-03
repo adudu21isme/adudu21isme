@@ -4,7 +4,7 @@ gocryptfs: https://github.com/rfjakob/gocryptfs
 
 gocryptfsmanpage: https://github.com/rfjakob/gocryptfs/blob/master/Documentation/MANPAGE.md
 
-This was tested on Linux 6.14.8-1.1-cachyos (Based on Arch Linux) and works on my machine (DE: KDE Plasma 6.3.5, WM: KWin (Wayland))
+This was tested on Linux 6.14.8-1.1-cachyos (Based on Arch Linux) and works on my machine (BTRFS, DE: KDE Plasma 6.3.5, WM: KWin (Wayland))
 
 Since i am using a distro based off arch linux, the commands will be for arch linux.
 
