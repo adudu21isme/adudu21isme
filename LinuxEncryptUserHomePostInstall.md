@@ -49,7 +49,8 @@ if ! fusermount3 -u /home/david; then
   fi
 else
   echo "Successfully unmounted using fusermount3."
-fi```
+fi
+```
 
 For `gocryptfsbootpassword.sh`:
 **This uses placeholder values "david", change it to your user.**
@@ -66,7 +67,8 @@ if gocryptfs -allow_other -passfile "$KEYFILE" /home/david_enc /home/david; then
 else
     echo "Failed to mount."
     exit 1
-fi```
+fi
+```
 
 Now, make a file in `/etc/systemd/system/` named `decrypt-home.service`, contents of `decrypt-home.service`:
 ```[Unit]
@@ -84,7 +86,8 @@ StandardInput=tty
 StandardOutput=journal
 
 [Install]
-WantedBy=basic.target```
+WantedBy=basic.target
+```
 
 13. Once we made the required files, 
 
