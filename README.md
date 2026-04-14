@@ -1,6 +1,3 @@
-# 💫 About Me:
-I like programming and similar.<br>Managing some communities.
-
 ### 🌐 Socials:
 [![Youtube](https://img.shields.io/badge/Youtube-black.svg?logo=Youtube&logoColor=white)](https://www.youtube.com/@adudu21) 
 [![Discord](https://img.shields.io/badge/Discord-black.svg?logo=Discord&logoColor=white)](https://discord.com/users/710227418492960778) 
